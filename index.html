@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wanderlist - Your travel bucket list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-nav">
+        <nav class="container" aria-label="Main">
+            <a class="brand" href="index.html">Wanderlist</a>
+            <ul class="nav-links">
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-copy">
+                    <h1 id="hero-title">Where to next?</h1>
+                    <p>Search any country, see the basics, and save it to your bucket list. Move it along as your plans
+                        get real.</p>
+
+                    <form class="search-form" action="#" method="get" role="search">
+                        <label class="visually-hidden" for="country-search">Search for a country</label>
+                        <input type="search" id="country-search" name="q" placeholder="Try Portugal" autocomplete="off">
+                        <button type="submit" class="btn btn-ticket">Search</button>
+                    </form>
+                    <p class="search-note">Search goes live in a later milestone. The tickets below are samples.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="list-title">
+            <div class="container">
+                <div class="section-head">
+                    <h2 id="list-title">Your lists</h2>
+                    <ul class="list-tabs" aria-label="Bucket list categories">
+                        <li><a href="#" aria-current="true">Want to Visit</a></li>
+                        <li><a href="#">Planning</a></li>
+                        <li><a href="#">Visited</a></li>
+                    </ul>
+                </div>
+
+                <ul class="ticket-grid">
+                    <li class="ticket">
+                        <div class="ticket-top">
+                            <span class="ticket-code" aria-hidden="true">JP</span>
+                            <span class="ticket-status">Want to Visit</span>
+                        </div>
+                        <div class="ticket-body">
+                            <h3>Japan</h3>
+                            <dl class="ticket-facts">
+                                <dt>Capital</dt>
+                                <dd>Tokyo</dd>
+                                <dt>Language</dt>
+                                <dd>Japanese</dd>
+                                <dt>Currency</dt>
+                                <dd>Yen (JPY)</dd>
+                            </dl>
+                        </div>
+                    </li>
+
+                    <li class="ticket">
+                        <div class="ticket-top">
+                            <span class="ticket-code" aria-hidden="true">IT</span>
+                            <span class="ticket-status">Want to Visit</span>
+                        </div>
+                        <div class="ticket-body">
+                            <h3>Italy</h3>
+                            <dl class="ticket-facts">
+                                <dt>Capital</dt>
+                                <dd>Rome</dd>
+                                <dt>Language</dt>
+                                <dd>Italian</dd>
+                                <dt>Currency</dt>
+                                <dd>Euro (EUR)</dd>
+                            </dl>
+                        </div>
+                    </li>
+
+                    <li class="ticket">
+                        <div class="ticket-top">
+                            <span class="ticket-code" aria-hidden="true">PE</span>
+                            <span class="ticket-status">Want to Visit</span>
+                        </div>
+                        <div class="ticket-body">
+                            <h3>Peru</h3>
+                            <dl class="ticket-facts">
+                                <dt>Capital</dt>
+                                <dd>Lima</dd>
+                                <dt>Language</dt>
+                                <dd>Spanish</dd>
+                                <dt>Currency</dt>
+                                <dd>Sol (PEN)</dd>
+                            </dl>
+                        </div>
+                    </li>
+
+                    <li class="ticket">
+                        <div class="ticket-top">
+                            <span class="ticket-code" aria-hidden="true">IS</span>
+                            <span class="ticket-status">Want to Visit</span>
+                        </div>
+                        <div class="ticket-body">
+                            <h3>Iceland</h3>
+                            <dl class="ticket-facts">
+                                <dt>Capital</dt>
+                                <dd>Reykjavik</dd>
+                                <dt>Language</dt>
+                                <dd>Icelandic</dd>
+                                <dt>Currency</dt>
+                                <dd>Krona (ISK)</dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">Wanderlist &middot; IT 340 project</div>
+    </footer>
+
+</body>
+
+</html>
