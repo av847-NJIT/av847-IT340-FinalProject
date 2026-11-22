@@ -509,3 +509,8 @@ input:focus {
         transition: none !important;
     }
 }
+
+.form-message { min-height: 1.5em; margin: 0 0 1rem; font-weight: 500; }
+.form-message.error { color: var(--error); }
+.form-message.ok { color: var(--teal-dark); }
+.nav-user { display: block; padding: 0.45rem 0.9rem; color: var(--ticket); font-weight: 700; }
